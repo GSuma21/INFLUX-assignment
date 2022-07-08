@@ -8,6 +8,7 @@
 .a1{
     border: 1px solid black;
     width: 800px;
+    background-color: aliceblue;
   
 
 }
@@ -15,5 +16,6 @@
 .a2{
     border: 1px solid black;
     width: 800px;
+    background-color: rgb(180, 180, 180);
   
 }

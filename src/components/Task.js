@@ -5,12 +5,13 @@ import React from 'react'
 const Task = ({taskList}) => {
   return (
     <>
-     {menuData.map((curElem) => {
+     {taskList.map((curElem) => {
 
           return (
             <>
-              <div  key={curElem.id}>
+              <div  key={id}>
               <h2> {curElem.task} </h2>
+              <p>{curElem.description}</p>
               </div>
             </>
           );
